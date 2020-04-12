@@ -1,2 +1,4 @@
-# BeeinternsHW
-Repository for homework
+# Beeinterns 
+### Репозиторий для выполненных домашних работ  
+
+**Статус выполненных заданий**  
