@@ -1,0 +1,68 @@
+.intro {
+    height: 1294px;
+    width: 100vw;
+    display: flex;
+    background-image: url('../images/why.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.title:first-child {
+    align-items: center;
+}
+
+.intro .container {
+    height: 1026px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro .item {
+    position: relative;
+    width: 912px;
+    height: 139px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.intro .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 510px;
+    height: 119px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro .left p {
+    font-weight: 300;
+    color: #fff;
+    font-size: 24px;
+}
+
+.left span {
+    font-size: 64px;
+}
+
+.intro .right {
+    position: absolute;
+    left: 404px;
+    top: 20px;
+    width: 510px;
+    height: 119px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #009C17;
+    font-size: 22px;
+}

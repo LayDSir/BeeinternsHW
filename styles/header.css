@@ -1,0 +1,82 @@
+header {
+    height: 100px;
+    width: 100vw;
+    background: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img{
+    height: 90px;
+}
+
+header .left {
+    margin-left: 310px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100%
+}
+
+header .right {
+    height: 100%;
+    width: 528px;
+    background: #009C17;
+}
+
+header .right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .right .container {
+    width: 275px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.phone {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+}
+
+.phone a {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.call {
+    height: 35px;
+    background: #E9C518;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.call img {
+    margin-left: 12px;
+}
+
+.main-nav {
+    margin-left: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 575px;
+}
+
+.main-nav a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
