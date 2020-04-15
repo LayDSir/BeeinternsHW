@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPPER</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" name="search" id="search" placeholder="Search for Products">
+                    <button class="btn blue">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="profile">
+            <button class="btn">Log In</button>
+            <button class="btn">Sign up</button>
+            <div class="cart">
+                <a href="#">
+                    <img src="images/shortlist.png" alt="" class="shortlist" >
+                </a>
+                <a href="#">
+                    <img src="images/cart.png" alt="" class="cart">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main-nav">
+        <nav>
+            <a href="#">Home Decor</a>
+            <a href="#">Furniture</a>
+            <a href="#">Lighting</a>
+            <a href="#">Home Accents</a>
+            <a href="#">Rugs</a>
+            <a href="#">Outdoors</a>
+            <a href="#">Holidays</a>
+            <a href="#">Gifts</a>
+            <a href="#">Events</a>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Seller Application</h1>
+        <div class="menu">
+            <a href="#">Application Critaria</a>
+            <a href="#">Company Profile</a>
+            <a href="#">Web & Social Media</a>
+            <a href="#" class="active">Contact Info</a>
+            <a href="#">Confirm Account</a>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="name">
+                    <h6>Name</h6>
+                    <div class="fields">
+                        <select name="" id="" class="field">
+                            <option value="Mr" selected>Mr</option>
+                            <option value="Ms">Ms</option>
+                            <option value="Mrs">Mrs</option>
+                            <option value="Miss">Miss</option>
+                        </select>
+                        <input type="text" name="fname" id="fname" class="field" placeholder="First Name">
+                        <input type="text" name="mname" id="mname" class="field" placeholder="Middle Name">
+                        <input type="text" name="lname" id="lname" class="field" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="title">
+                    <h6>Title</h6>
+                    <input type="text" name="title" id="field-title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" class="field">
+                </div>
+                <h5 class="address-title">Business Mailing Address</h5>
+                <hr class="form-break">
+                <div class="row">
+                    <div class="street">
+                        <h6>Street Address</h6>
+                        <input type="text" name="street" id="street" class="field">
+                    </div>
+                    <div class="apt">
+                        <h6>Apt / Suite / Other</h6>
+                        <input type="text" name="apt" id="apt" class="field">
+                    </div>
+                    <div class="city">
+                        <h6>City</h6>
+                        <input type="text" name="city" id="city" class="field">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="postal">
+                        <h6>Zip / Postal Code</h6>
+                        <input type="text" name="postal" id="postal" class="field">
+                    </div>
+                    <div class="country">
+                        <h6>Country</h6>
+                        <select name="country" id="country" class="field">
+                            <option value="US">United States</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="RU">Russian Federation</option>
+                            <option value="UA">Ukraine</option>
+                        </select>
+                    </div>
+                    <div class="phone">
+                        <h6>Phone Number</h6>
+                        <input type="tel" name="phone" id="phone" class="field">
+                        <p>To Validate your account please enter valid mobile Number to receive confirmation code</p>
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <button class="btn back">Go Back</button>
+                    <p>By Submitting this application, you agree to the <a href="#">Buyer guidelines</a></p>
+                    <button class="btn submit blue">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="contacts">
+            <div class="list">
+                <h6>How We Help</h6>
+                <ul>
+                    <li>
+                        <a href="#">Retailers</a>
+                    </li>
+                    <li>
+                        <a href="#">Interiors Designers</a>
+                    </li>
+                    <li>
+                        <a href="#">Product Designers</a>
+                    </li>
+                    <li>
+                        <a href="#">Wholesalers / Importers</a>
+                    </li>
+                    <li>
+                        <a href="#">Artisans</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list">
+                <h6>Get to Know Us</h6>
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Policies</a>
+                    </li>
+                    <li>
+                        <a href="#">Careers</a>
+                    </li>
+                    <li>
+                        <a href="#">Press</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list">
+                <h6>Join the Community</h6>
+                <ul>
+                    <li>
+                        <a href="#">Upcoming Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Become a Buyer</a>
+                    </li>
+                    <li>
+                        <a href="#">Become a Seller</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list">
+                <h6>Follow Us</h6>
+                <ul>
+                    <li>
+                        <img src="images/facebook.png" alt=""><a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <img src="images/pinterest.png" alt=""><a href="#">Pinterest</a>
+                    </li>
+                    <li>
+                        <img src="images/twitter.png" alt=""><a href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <img src="images/instagram.png" alt=""><a href="#">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="license">
+            <hr class="footer-line">
+            <div class="text">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

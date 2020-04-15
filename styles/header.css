@@ -1,0 +1,58 @@
+header {
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    margin-left: 80px;
+}
+
+.search input {
+    margin-left: 128px;
+    padding-left: 14px;
+    width: calc(325px - 14px - 2px);
+    height: 38px;
+
+    border: 1px solid #E0E0E0;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.search form {
+    display: flex;
+}
+
+.search button {
+    border-radius: 0 3px 3px 0;
+}
+
+.profile {
+    margin-right: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile button {
+    margin-right: 22px;
+}
+
+.cart {
+    display: flex;
+}
+
+.cart a:first-child {
+    margin-right: 22px;
+}

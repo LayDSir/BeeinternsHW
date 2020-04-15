@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container h1{
+    margin-top: 40px;
+    font-size: 26px;
+    color: #000;
+}
+
+.menu {
+    margin-top: 35px;
+    width: 845px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #878786;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a[class='active'] {
+    color: #007AFF;
+}
+
+.form {
+    margin-top: 20px;
+    width: calc(970px - 18px);
+    border: 1px solid #C6C6C5;
+    border-radius: 3px;
+    padding: 18px;
+}
+
+.form h6 {
+    margin-top: 45px;
+}
+
+.form h6:first-child {
+    margin-top: 25px;
+}
+
+.title input{
+    width: calc(100% - 34px);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.row select {
+    width: 298px;
+}
+
+.row input {
+    width: calc(298px - 34px);
+}
+
+.row p {
+    margin-top: 10px;
+    width: 298px;
+    font-size: 14px;
+    color: #878786;
+}
+
+.fields {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.name input {
+    width: calc(236px - 34px);
+}
+
+.name select {
+    width: calc(151px - 34px);
+}
+
+.form hr {
+    margin-top: 10px;
+    width: calc(100%);
+    border: 1px solid #C6C6C5;
+}
+
+.form-footer {
+    margin-top: 48px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
