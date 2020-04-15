@@ -1,0 +1,70 @@
+@import "header.css";
+@import "mnav.css";
+@import "body.css";
+@import "footer.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+h5 {
+    margin-top: 48px;
+    color: #007AFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn {
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid #757575;
+    color: #757575;
+    border-radius: 3px;
+    background: none;
+    font-weight: 700;
+}
+
+.blue {
+    background: #007AFF;
+    border: none;
+    color: #fff;
+}
+
+.field {
+    height: 38px;
+    padding: 0 17px;
+    border: 1px solid #C6C6C5;
+    border-radius: 3px;
+}
+
+select {
+    height: 40px !important;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+li {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}

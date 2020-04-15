@@ -1,0 +1,25 @@
+.main-nav {
+    width: 100%;
+    height: 45px;
+
+    background: #F4F4F4;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-nav nav {
+    margin-left: 80px;
+}
+
+.main-nav a {
+    margin-left: 40px;
+    color: #737270;
+    font-size: 15px;
+}
+
+.main-nav a:first-child {
+    margin: 0;
+}
