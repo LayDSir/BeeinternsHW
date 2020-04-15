@@ -99,3 +99,12 @@ a[class='active'] {
     justify-content: space-between;
     align-items: center;
 }
+
+.form-footer p {
+    color: #878786;
+}
+
+.form-footer a {
+    color: #878786;
+    text-decoration: underline;
+}
