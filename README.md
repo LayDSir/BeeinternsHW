@@ -3,6 +3,6 @@
 
 **Статус выполненных заданий**  
 **Homework 10** - Верстка лендинга - *CHECKING*  
-**Homework 11** - Верстка страницы - *Done*
-**Homework 12**
-**Homework 13** - Верстка страницы - *Done*
+**Homework 11** - Верстка страницы - *Done*  
+**Homework 12**  
+**Homework 13** - Верстка страницы - *Done*  
