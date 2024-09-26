@@ -1,0 +1,46 @@
+.advantages {
+    height: 1306px;
+    width: 100vw;
+    display: flex;
+    background-image: url('../images/us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.advantages .text {
+    margin-top: -26px;
+}
+
+.advantages .container {
+    height: 1026px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.advantages .item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.advantages .description {
+    margin-left: 42px;
+    padding-left: 52px;
+    border-left: 1px solid #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 75px;
+    width: 584px;
+}
+
+.advantages .description p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
